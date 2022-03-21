@@ -4,24 +4,80 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Bootstrap Starter Page</title>
+    <title>Module 3 Solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
 <body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
 
-  <h1>Hi world</h1>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+            
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"  data-toggle=”dropdown” aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="menu1">
+              <a class="hidden-sm hidden-md hidden-lg">
+                <span></span><br class="hidden-xs"> Tofu</a>
+            </li>
+            <li id="menu2">
+              <a href="#" class="hidden-sm hidden-md hidden-lg">
+                <span></span><br class="hidden-xs"> Seitan</a>
+            </li>
+            <li id="menu3">
+              <a href="#" class="hidden-sm hidden-md hidden-lg">
+                <span></span><br class="hidden-xs"> Soya</a>
+            </li>
+            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>   
+
+    <h1 id="main"> Our Menu</h1>
+
+    <div class="box">
+      <h2>Tofu</h2>
+      <p>Tofu (豆腐, tōfu), also known as bean curd, is a food prepared by coagulating soy milk and then pressing the resulting curds into solid white blocks of varying softness; it can be silken, soft, firm, extra firm or super firm. Beyond these broad textural categories, there are many varieties of tofu. It has a subtle flavor, so it can be used in savory and sweet dishes. It is often seasoned or marinated to suit the dish and its flavors, and due to its spongy texture it absorbs flavors well.
+      Nutritionally, tofu is low in calories, while containing a relatively large amount of protein. It is high in iron, and can have a high calcium or magnesium content depending on the coagulants (e.g. calcium chloride, calcium sulphate, magnesium sulphate) used in manufacturing.
+     Tofu first originated in China and has been consumed within China for over 2,000 years dating back to the Han dynasty. It is also a traditional component of the cuisines of East and Southeast Asia, including in Indonesia, Japan, Korea, Singapore, Thailand and Vietnam.</p>
+    </div>
+
+    <div class="box2">
+      <h2>Seitan</h2>
+      <p> Seitan is a food made from gluten, the main protein of wheat.It is also known as miàn jīn (Chinese: 麵筋), milgogi (Korean: 밀고기), wheat meat, gluten meat, vital wheat gluten or simply gluten. It is made by washing wheat flour dough with water until all the starch granules have been removed, leaving the sticky insoluble gluten as an elastic mass, which is then cooked before being eaten.
+      Wheat gluten is an alternative to soybean-based foods such as tofu, which are sometimes used as meat analogue. Some types of wheat gluten have a chewy or stringy texture that resembles meat more than other substitutes. Wheat gluten is often used instead of meat in Asian, vegetarian, Buddhist, and macrobiotic cuisines. Mock duck is a common use for wheat.
+      Wheat gluten first appeared during the 6th century as an ingredient for Chinese noodles.It has historically been popular in the cuisines of China, Japan and other East and Southeast Asian nations. In Asia, it is commonly found on the menus of restaurants catering primarily to Buddhist customers who do not eat meat.</p>
+    </div>
+
+    <div class="box3">
+      <h2>Soya</h2>
+      <p>The soybean, soy bean, or soya bean (Glycine max)is a species of legume native to East Asia, widely grown for its edible bean, which has numerous uses.
+      Traditional unfermented food uses of soybeans include soy milk, from which tofu and tofu skin are made. Fermented soy foods include soy sauce, fermented bean paste, nattō, and tempeh. Fat-free (defatted) soybean meal is a significant and cheap source of protein for animal feeds and many packaged meals. For example, soybean products, such as textured vegetable protein (TVP), are ingredients in many meat and dairy substitutes.
+      Soy beans contain significant amounts of phytic acid, dietary minerals and B vitamins. Soy vegetable oil, used in food and industrial applications, is another product of processing the soybean crop. Soybean is the most important protein source for feed farm animals (that in turn yields animal protein for human consumption) </p>
+    </div>
+
+
+  </div>
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/jquery-3.3.6.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
